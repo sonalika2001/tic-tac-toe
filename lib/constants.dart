@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 
 const kgametextstyle = TextStyle(
   color: Colors.white,
-  fontSize: 40,
+  fontSize: 30,
   fontFamily: 'PressStart2P',
 );
 const ktitletextstyle = TextStyle(
   color: Colors.white,
-  fontSize: 35,
+  fontSize: 25,
   fontFamily: 'PressStart2P',
 );
 
 const kscoretitlestyle = TextStyle(
   color: Colors.white,
-  fontSize: 30,
+  fontSize: 25,
   fontFamily: 'PressStart2P',
 );
 const kscorestyle = TextStyle(
@@ -24,12 +24,12 @@ const kscorestyle = TextStyle(
 
 const kalerttitlestyle = TextStyle(
   color: Colors.white,
-  fontSize: 18,
+  fontSize: 15,
   fontFamily: 'PressStart2P',
 );
 const kalertcontentstyle = TextStyle(
   color: Colors.black,
-  fontSize: 15,
+  fontSize: 13,
   fontFamily: 'PressStart2P',
 );
 
@@ -46,6 +46,6 @@ const kbuttonstyle = TextStyle(
 
 const knamestyle = TextStyle(
   color: Colors.white,
-  fontSize: 23,
+  fontSize: 20,
   fontFamily: 'PressStart2P',
 );

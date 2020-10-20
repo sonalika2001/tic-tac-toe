@@ -36,22 +36,28 @@ class _SplashScreenState extends State<SplashScreen>
             ),
             Expanded(
               flex: 3,
-              child: Container(
-                child: AvatarGlow(
-                  duration: Duration(milliseconds: 1500),
-                  child: Container(
-                    decoration: ksplashscreendecor,
-                    child: CircleAvatar(
-                      radius: 0.25 * MediaQuery.of(context).size.width,
-                      backgroundColor: Colors.grey[900],
-                      child: Image.asset(
-                        './images/tictactoelogo.png',
-                        color: Colors.white,
-                        fit: BoxFit.scaleDown,
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => GameScreen()));
+                },
+                              child: Container(
+                  child: AvatarGlow(
+                    duration: Duration(milliseconds: 1500),
+                    child: Container(
+                      decoration: ksplashscreendecor,
+                      child: CircleAvatar(
+                        radius: 0.25 * MediaQuery.of(context).size.width,
+                        backgroundColor: Colors.grey[900],
+                        child: Image.asset(
+                          './images/tictactoelogo.png',
+                          color: Colors.white,
+                          fit: BoxFit.scaleDown,
+                        ),
                       ),
                     ),
+                    endRadius: 0.45 * MediaQuery.of(context).size.width,
                   ),
-                  endRadius: 0.45 * MediaQuery.of(context).size.width,
                 ),
               ),
             ),
